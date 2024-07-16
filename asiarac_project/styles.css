@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    gap: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.navbar img {
+   height: 70px;
+}
+
+.carousel-inner img {
+    width: 1920px;
+    height: 450px;
+    object-fit:fill; /* Ensures the image covers the container without stretching */
+}
+
+.about-us {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+.about-us .section-title {
+    
+    margin-bottom: 20px;
+}
+.about-us .section-content {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}   
+
+.about-us .container img{
+    border-radius: 40px;
+}
+
+.about-us .container h2{
+font-weight: 600;
+}
+
+.number-item {
+    text-align: center;
+    margin: 20px 0;
+    opacity: 0;
+  }
+  .number-item h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+  .number-item p {
+    font-size: 1.2rem;
+  }
+
+ 
